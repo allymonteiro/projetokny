@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+* {
+  color: white;
+}
+
+.header {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#navitem:hover {
+  color: #dfd500;
+}
+
+.nav-link {
+  font-size: 20px;
+}
+
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.arrowdown {
+  display: inline-block;
+  width: 90px;
+  margin-top: 5px;
+}
+
+.logopc {
+  width: 200px;
+  margin-left: -10px;
+  margin-right: 40px;
+}
+
+#button {
+  padding: 15px 35px;
+  border: 2px solid white;
+}
+
+.footer {
+  background-color: black;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer a:hover {
+  color: #dfd500;
+}
+.footer .copyAM {
+  color: #555252;
+}
+
+@media (max-width: 405px) {
+  .logopc {
+    width: 180px;
+    margin-top: 15px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+}
+@media (max-width: 350px) {
+  .logopc {
+    width: 150px;
+    margin-top: 15px;
+  }
+}
+.container00.container01 {
+  background-image: url(../../img/index/tubarao.png);
+}
+.container00.container02 {
+  background-color: rgb(87, 76, 76);
+  background-image: url(../../img/index/porco.png);
+}
+.container00.container03 {
+  background-image: url(../../img/index/panda.png);
+}
+.container00.container04 {
+  background-image: url(../../img/index/cacatua.png);
+}
+
+.tittlepadding {
+  padding-top: 200px;
+}
+
+.shorttitle {
+  width: 550px;
+  margin-bottom: 25px;
+}
+
+.mediumtitle {
+  width: 650px;
+  margin-bottom: 25px;
+}
+
+/*SCROLL BAR */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: grey;
+  opacity: 50%;
+}
+
+@media (max-width: 750px) {
+  .tittlepadding {
+    padding-top: 120px;
+  }
+  .shorttitle,
+  .mediumtitle {
+    width: auto;
+    font-size: 50px;
+  }
+}
+@media (max-width: 380px) {
+  .shorttitle,
+  .mediumtitle {
+    width: auto;
+    font-size: 40px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
